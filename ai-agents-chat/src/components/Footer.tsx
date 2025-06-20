@@ -15,7 +15,7 @@ export default function Footer() {
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
               The leading platform for building and deploying self-improving AI agents. 
-              Powered by the breakthrough Darwin Gödel Machine framework, enabling AI that 
+              Powered by <a href="https://github.com/WecoAI/weco-cli" className="text-purple-400 hover:text-purple-300" target="_blank" rel="noopener noreferrer">Weco's self-improving code platform</a> and the breakthrough Darwin Gödel Machine framework, enabling AI that 
               continuously evolves and improves itself.
             </p>
             <div className="flex space-x-4">
@@ -29,9 +29,9 @@ export default function Footer() {
                 </svg>
               </a>
               <a 
-                href="https://github.com/agentevolution" 
+                href="https://github.com/WecoAI/weco-cli" 
                 className="text-gray-400 hover:text-purple-400 transition-colors"
-                aria-label="GitHub"
+                aria-label="GitHub - Weco CLI"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 0C5.374 0 0 5.373 0 12 0 17.302 3.438 21.8 8.207 23.387c.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
@@ -75,7 +75,7 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4">Resources</h3>
             <ul className="space-y-2">
               <li><a href="#documentation" className="text-gray-400 hover:text-white transition-colors">Documentation</a></li>
-              <li><a href="#api" className="text-gray-400 hover:text-white transition-colors">API Reference</a></li>
+              <li><a href="https://github.com/WecoAI/weco-cli" className="text-gray-400 hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">Weco CLI</a></li>
               <li><a href="#community" className="text-gray-400 hover:text-white transition-colors">Community</a></li>
               <li><a href="#tutorials" className="text-gray-400 hover:text-white transition-colors">Tutorials</a></li>
               <li><a href="#support" className="text-gray-400 hover:text-white transition-colors">Support</a></li>
@@ -83,11 +83,17 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Research Citations */}
+        {/* Research Citations & Platform */}
         <div className="mt-12 pt-8 border-t border-gray-800">
           <div className="bg-gray-800/50 rounded-lg p-6">
-            <h4 className="text-white font-semibold mb-4">Research Foundation</h4>
+            <h4 className="text-white font-semibold mb-4">Platform & Research Foundation</h4>
             <div className="space-y-3 text-sm text-gray-400">
+              <p>
+                <strong className="text-gray-300">Weco CLI Platform:</strong> The self-improving code optimization engine powering our agents - 
+                <a href="https://github.com/WecoAI/weco-cli" className="text-purple-400 hover:text-purple-300 ml-1" target="_blank" rel="noopener noreferrer">
+                  WecoAI/weco-cli
+                </a>
+              </p>
               <p>
                 <strong className="text-gray-300">Darwin Gödel Machine:</strong> Based on the research by 
                 <a href="https://sakana.ai/dgm/" className="text-purple-400 hover:text-purple-300 ml-1" target="_blank" rel="noopener noreferrer">
@@ -101,9 +107,9 @@ export default function Footer() {
                 </a>
               </p>
               <p>
-                <strong className="text-gray-300">Open-Ended Evolution:</strong> Inspired by advances in 
+                <strong className="text-gray-300">AIDE Algorithm:</strong> Evaluation-driven optimization powering Weco's tree search approach for 
                 <a href="https://arxiv.org" className="text-purple-400 hover:text-purple-300 ml-1" target="_blank" rel="noopener noreferrer">
-                  evolutionary algorithms research
+                  systematic code improvement
                 </a>
               </p>
             </div>
@@ -113,7 +119,7 @@ export default function Footer() {
         {/* Legal */}
         <div className="mt-8 pt-8 border-t border-gray-800 flex flex-col sm:flex-row justify-between items-center">
           <div className="text-gray-400 text-sm">
-            © {currentYear} AgentEvolution Inc. All rights reserved.
+            © {currentYear} AgentEvolution Inc. All rights reserved. Powered by <a href="https://github.com/WecoAI/weco-cli" className="text-purple-400 hover:text-purple-300" target="_blank" rel="noopener noreferrer">Weco</a>.
           </div>
           <div className="flex space-x-6 mt-4 sm:mt-0">
             <a href="#privacy" className="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a>
